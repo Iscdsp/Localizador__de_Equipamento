@@ -1,0 +1,11 @@
+.map-container-wrapper{
+    width: 100%;
+    min-height: 97vh;
+    
+}
+.map-wrapper{
+    width:100%;
+    display: block;
+    margin-left: 4%;
+    padding: 10px;
+}
