@@ -8,10 +8,6 @@ const routes: Routes = [
     path: '',
     component: MapComponent,
   },
-  {
-    path: '',
-    component: HistoricCargoTruckComponent,
-  },
 ];
 
 @NgModule({
