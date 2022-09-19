@@ -3,10 +3,10 @@ import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
 
 export default class EquipamentStateHistory extends BaseModel {
   @column({ isPrimary: true })
-  public id: string
+  public equipmentId: string
 
   @column()
-  public states: [date: string, equipamentStateId: string]
+  public states: [date: string, equipmentStateId: string]
 
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime
