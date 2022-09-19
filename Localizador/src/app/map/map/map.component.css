@@ -1,11 +1,18 @@
 .map-container-wrapper{
+    display: flex;
     width: 100%;
     min-height: 97vh;
     
 }
 .map-wrapper{
-    width:100%;
-    display: block;
+    width:75%;
+display: block;
     margin-left: 4%;
-    padding: 10px;
+    padding: 30px 10px 10px 10px;
+    border-right: 5px solid #0d2c43;
+}
+.historic-wrapper{
+    display: flex;
+    width: 25%;
+    justify-content: center;
 }
