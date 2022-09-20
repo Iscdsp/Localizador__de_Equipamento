@@ -9,4 +9,10 @@ export default class EquipamentStatesController {
 
     return { message: 'tipo de estado adicionado', data: EquipamentState }
   }
+
+  public async index() {
+    const equipamentStates = await EquipamentState.all()
+
+    return { data: equipamentStates }
+  }
 }

@@ -11,4 +11,10 @@ export default class EquipamentModelsController {
 
     return { message: 'Modelo adicionado com sucesso!', data: EquipamentModel }
   }
+
+  public async index() {
+    const equipamentModels = await EquipamentModel.all()
+
+    return { data: equipamentModels }
+  }
 }

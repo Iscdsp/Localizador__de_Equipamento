@@ -6,7 +6,7 @@ export default class EquipamentPositionHistory extends BaseModel {
   public equipmentId: string
 
   @column()
-  public positions: [date: string, lat: number, lon: number]
+  public positions: Array<[{ date: string; lat: number; lon: number }]>
 
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime

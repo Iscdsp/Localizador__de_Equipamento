@@ -6,7 +6,7 @@ export default class EquipamentStateHistory extends BaseModel {
   public equipmentId: string
 
   @column()
-  public states: [date: string, equipmentStateId: string]
+  public states: Array<[{ date: string; equipmentStateId: string }]>
 
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime
