@@ -6,6 +6,7 @@ export const environment = {
   production: false,
   api_key:
     'http://maps.googleapis.com/maps/api/js?key=AIzaSyDDMt1cEGuVdXdWTc9FIlajOk_vupJAyf0',
+  api_history_state: ' http://127.0.0.1:3333/api/equipaments_states_history/',
 };
 
 /*

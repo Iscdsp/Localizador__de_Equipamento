@@ -1,13 +1,15 @@
 <nav class="historic-input-wrapper">
-  <div class="text-input">
-    <label for="state" class="historic-font">Estado</label>
-    <input type="radio" name="historic" id="state" value="state" />
-  </div>
-  <div class="text-input">
-    <label for="position" class="historic-font">Posição</label>
-    <input type="radio" name="historic" id="position" value="position" />
-  </div>
+  <ng-select
+    class="select-box"
+    name="historico"
+    [items]="historicos"
+    bindLabel="historico"
+    placeholder="Selecione um histórico"
+  ></ng-select>
 </nav>
-<div class="container-state-wrapper">
-    
+<div
+  class="container-history-state"
+  *ngFor="let stateHistory of stateHistories"
+>
+  <p>}}</p>
 </div>

@@ -1,56 +1,13 @@
 .historic-input-wrapper{
     display: flex;
-    align-items: center;   
-   /*  gap: 10.5rem; */
-    height: 7vh;
-    width: 27rem;
-
-    background-color: #0d2c43;
-}
-
-.text-input{
-    
-    display: block;
-    position: relative;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-weight: bold;
 
 }
-/* .text-input:nth-child(1) label{
-    position: relative;
-    left: 150%;
+
+.ng-select.select-box{
+  width: 27rem;
+  border-radius: 0;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
 }
 
-.text-input:nth-child(2) label{
-    position: relative;
-    left: 120%;
-} */
-   
-  
-  
-
-input[type="radio"]{
-appearance: none;
-    /* position: absolute;
-left: -0.6rem;
-top: -1.6rem;
-    appearance: none;
-    width: 215px;
-    height: 7vh;
-   border: 5px solid #0d2c43;
-   box-sizing: border-box; */
-   z-index: -1; 
-}
-
-.historic-font{
-    margin-top: 1.4rem;
-    display: block;
-    color: rgb(0, 0, 0);
-    width: 13.5rem;
-    height: 7vh;
-    text-align: center;
-    padding-top: 1.2rem;
-    background-color: #0d2c43;
-    box-sizing: border-box;
-    z-index: 1;
-}
