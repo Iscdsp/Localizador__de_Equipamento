@@ -3,7 +3,7 @@ import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
 
 export default class EquipamentPositionHistory extends BaseModel {
   @column({ isPrimary: true })
-  public equipament_id: string
+  public equipmentId: string
 
   @column()
   public positions: [date: string, lat: number, lon: number]

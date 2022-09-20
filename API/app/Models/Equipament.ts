@@ -6,7 +6,7 @@ export default class Equipament extends BaseModel {
   public id: string
 
   @column()
-  public equipament_model_id: string
+  public equipmentModelId: string
 
   @column()
   public name: string

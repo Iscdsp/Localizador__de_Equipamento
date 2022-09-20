@@ -5,7 +5,7 @@ export default class EquipamentModelsController {
   public async store({ request, response }: HttpContextContract) {
     const body = request.body()
 
-    const equipamentsModels = await EquipamentModel.create(body)
+    const equipamentsModel = await EquipamentModel.create(body)
 
     response.status(201)
 
